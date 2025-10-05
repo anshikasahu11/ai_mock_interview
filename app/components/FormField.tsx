@@ -5,8 +5,8 @@ import {
   FormLabel,
   FormControl,
   FormMessage,
-} from "@/app/components/components/ui/form";
-import { Input } from "@/app/components/components/ui/input";
+} from "@/app/components/ui/form";
+import { Input } from "@/app/components/ui/input";
 
 interface FormFieldProps<T extends FieldValues> {
   control: Control<T>;
